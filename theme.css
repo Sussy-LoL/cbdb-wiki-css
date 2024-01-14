@@ -16,7 +16,7 @@
     Edited for B市数据库 by Xswlfr.
 */
 :root {
-    --logo-image: url('https://cbdb-wiki.wdfiles.com/local--files/component%3Atheme/cbdb-icon.png');
+    --logo-image: url('https://sussy-lol.github.io/cbdb-wiki-css/cbdb-icon.svg');
     --header-title: "B市数据库";
     --header-subtitle: "记录不法分子";
 }
@@ -107,7 +107,7 @@ body {
     color: #333;
 }
 div#container-wrap {
-    background: url('https://scp-wiki-cn.wdfiles.com/local--files/component%3Atheme/body_bg.png') top left repeat-x;
+    background: url('https://sussy-lol.github.io/cbdb-wiki-css/body_bg.svg') top left repeat-x;
 }
 td.name {
     width: 40%;
