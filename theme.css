@@ -4,13 +4,15 @@
     Edited for B市数据库 by Xswlfr.
     Some codes by Aelanna, Woedenaz, Croquembouche.
 */
+@import url("https://bhl.scpwikicn.com/css/min/normalize.min.css");
+@import url("https://bhl.scpwikicn.com/css/min/black-highlighter.min.css");
 :root {
-    --logo-image: url('https://sussy-lol.github.io/cbdb-wiki-css/cbdb-icon-move.svg');
-    --header-title: "B市数据库";
-    --header-subtitle: "记录不法分子";
     --theme-base: "black-highlighter";
     --theme-id: "cbdb";
     --theme-name: "C.B.D.B. Theme";
+    --logo-image: url('https://sussy-lol.github.io/cbdb-wiki-css/cbdb-icon.svg');
+    --header-title: "B市数据库";
+    --header-subtitle: "记录不法分子";
 }
 @supports(display: grid) {
     :root {
