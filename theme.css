@@ -9,7 +9,8 @@
     --header-title: "B市数据库";
     --header-subtitle: "记录不法分子";
     --theme-base: "black-highlighter";
-    --theme-id: "city-b-database"
+    --theme-id: "cbdb";
+    --theme-name: "C.B.D.B. Theme";
 }
 @supports(display: grid) {
     :root {
@@ -285,7 +286,7 @@
     .meta-title::before {
         margin: auto 1.25rem auto auto;
     }
-}
+
 @media only screen and (min-width: 56.25rem) {
         #side-bar .close-menu {
             display: block;
@@ -476,3 +477,4 @@
             }
         }
     }
+}
