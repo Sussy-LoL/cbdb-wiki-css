@@ -3427,14 +3427,6 @@ div[id*="page-options-bottom"]>a::after {
 	transition:
 		background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
 	background-color: rgb(var(--ui-icon-color));
-	-webkit-mask-image: var(--button-icon);
-	        mask-image: var(--button-icon);
-	-webkit-mask-size: calc(var(--icon-size) - 0.5em);
-	        mask-size: calc(var(--icon-size) - 0.5em);
-	-webkit-mask-position: center center;
-	        mask-position: center center;
-	-webkit-mask-repeat: no-repeat;
-	        mask-repeat: no-repeat;
 }
 
 div[id*="page-options-bottom"]>a:hover::after,
@@ -3446,83 +3438,7 @@ div[id*="page-options-bottom"]>a:focus-within::after {
 	background-color: rgb(var(--ui-icon-hover-color));
 }
 
-div[id*="page-options-bottom"]>a#edit-button {
-	--button-icon: var(--edit-mask);
-}
 
-div[id*="page-options-bottom"]>a#pagerate-button,
-div[id*="page-options-bottom"]>a#scpper-pagerate-button {
-	--button-icon: var(--pagerate-mask);
-}
-
-div[id*="page-options-bottom"]>a#tags-button {
-	--button-icon: var(--tags-mask);
-}
-
-div[id*="page-options-bottom"]>a#discuss-button {
-	--button-icon: var(--discuss-mask);
-}
-
-div[id*="page-options-bottom"]>a#history-button,
-div[id*="page-options-bottom"]>a#scpper-history-button {
-	--button-icon: var(--history-mask);
-}
-
-div[id*="page-options-bottom"]>a#files-button {
-	--button-icon: var(--files-mask);
-}
-
-div[id*="page-options-bottom"]>a#print-button {
-	--button-icon: var(--print-mask);
-}
-
-div[id*="page-options-bottom"]>a#site-tools-button {
-	--button-icon: var(--site-tools-mask);
-}
-
-div[id*="page-options-bottom"]>a#more-options-button {
-	--button-icon: var(--more-options-mask);
-}
-
-div[id*="page-options-bottom"]>a#edit-sections-button {
-	--button-icon: var(--edit-sections-mask);
-}
-
-div[id*="page-options-bottom"]>a#edit-append-button {
-	--button-icon: var(--append-mask);
-}
-
-div[id*="page-options-bottom"]>a#edit-meta-button {
-	--button-icon: var(--edit-meta-mask);
-}
-
-div[id*="page-options-bottom"]>a#watchers-button {
-	--button-icon: var(--watchers-mask);
-}
-
-div[id*="page-options-bottom"]>a#backlinks-button {
-	--button-icon: var(--backlinks-mask);
-}
-
-div[id*="page-options-bottom"]>a#view-source-button {
-	--button-icon: var(--view-source-mask);
-}
-
-div[id*="page-options-bottom"]>a#parent-page-button {
-	--button-icon: var(--parent-page-mask);
-}
-
-div[id*="page-options-bottom"]>a#page-block-button {
-	--button-icon: var(--lock-page-mask);
-}
-
-div[id*="page-options-bottom"]>a#rename-move-button {
-	--button-icon: var(--rename-mask);
-}
-
-div[id*="page-options-bottom"]>a#delete-button {
-	--button-icon: var(--delete-mask);
-}
 
 /* ===FOOTER BOX=== */
 
