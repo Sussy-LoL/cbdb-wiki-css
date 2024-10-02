@@ -12,8 +12,8 @@
     --theme-id: "cbdb";
     --theme-name: "C.B.D.B. Theme";
     --logo-image: url('https://sussy-lol.github.io/cbdb-wiki-css/cbdb-icon.svg');
-    --header-title: "B市数据库";
-    --header-subtitle: "记录不法分子";
+    --header-title: "B市测试地点";
+    --header-subtitle: "Hello, World!";
 }
 .scp-image-block.block-right {
     padding: 1em !important;
