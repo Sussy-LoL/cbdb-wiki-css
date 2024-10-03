@@ -1,7 +1,7 @@
 /*
     City B database
     [2024 Wikidot Theme]
-    Edited for B市数据库 by Xswlfr.
+    Edited for 测试地点 by Xswlfr.
     Some codes by Aelanna, Woedenaz, Croquembouche.
 */
 @import url("https://bhl.scpwikicn.com/css/min/normalize.min.css");
@@ -12,7 +12,7 @@
     --theme-id: "cbdb";
     --theme-name: "C.B.D.B. Theme";
     --logo-image: url('https://sussy-lol.github.io/cbdb-wiki-css/cbdb-icon.svg');
-    --header-title: "B市测试地点";
+    --header-title: "测试地点";
     --header-subtitle: "Hello, World!";
 }
 .scp-image-block.block-right {
